@@ -1,0 +1,28 @@
+{
+  "name": "web-ifc-three-indexes-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "src/index.ts",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx esbuild src/index.ts --minify --outfile=dist/index.js"
+  },
+  "keywords": ["web-ifc-three", "indexes"],
+  "author": "easydu",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/easydu2002/web-ifc-three-indexes-utils",
+    "type": "github"
+  },
+  "devDependencies": {
+    "@types/three": "^0.154.0",
+    "three": "^0.154.0"
+  },
+  "dependencies": {
+    "web-ifc": "^0.0.42",
+    "web-ifc-three": "^0.0.125"
+  }
+}
